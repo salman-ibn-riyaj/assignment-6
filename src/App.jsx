@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import SimpleTransparentPricingSection from './components/SimpleTransparentPricingSection'
 import StateSection from './components/StateSection'
+import ToggleBtnSection from './components/ToggleBtnSection'
 
 
 const threeDataFetch = async() => {
@@ -21,9 +22,10 @@ function App() {
       <Navbar></Navbar>
       <HeroSection></HeroSection>
       <StateSection></StateSection>
+
+      <ToggleBtnSection></ToggleBtnSection>
+
       <GetStartedSection></GetStartedSection>
-
-
       <SimpleTransparentPricingSection threeDataPromise={threeDataPromise}></SimpleTransparentPricingSection>
       <FooterSection></FooterSection>
     </>
