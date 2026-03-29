@@ -1,0 +1,112 @@
+[
+  {
+    "id": "prod_001",
+    "name": "ResumeForge Starter",
+    "description": "Build ATS-friendly resumes with 100+ templates and instant PDF export.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/tMxFHzyG/design-tool.png"
+  },
+  {
+    "id": "prod_002",
+    "name": "CloudVault Pro",
+    "description": "Encrypted cloud storage with real-time sync across all your devices.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["1 TB storage", "End-to-end encryption", "5 device sync", "Version history"],
+    "icon": "https://i.ibb.co.com/FbTZ6xJR/operation.png"
+  },
+  {
+    "id": "prod_003",
+    "name": "AnalyticsPulse",
+    "description": "Real-time dashboards and business intelligence for growing teams.",
+    "price": 299,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Unlimited reports", "AI insights", "Custom dashboards", "CSV export"],
+    "icon": "https://i.ibb.co.com/whhmsZc8/portfolio.png"
+  },
+  {
+    "id": "prod_004",
+    "name": "TaskFlow Teams",
+    "description": "Project management with kanban boards, sprints, and team workspaces.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited projects", "Kanban & Gantt", "Time tracking", "Integrations"],
+    "icon": "https://i.ibb.co.com/bjmjZ5QD/shopping-cart.png"
+  },
+  {
+    "id": "prod_005",
+    "name": "MailCraft Studio",
+    "description": "Drag-and-drop email builder with smart A/B testing and automation.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag-and-drop editor", "A/B testing", "500K sends/mo", "Analytics"],
+    "icon": "https://i.ibb.co.com/FqBKQZGR/social-media.png"
+  },
+  {
+    "id": "prod_006",
+    "name": "DevGuard Security",
+    "description": "Vulnerability scanning and dependency monitoring for dev teams.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["OWASP scanning", "Dependency alerts", "CI/CD integration", "SBOM reports"],
+    "icon": "https://i.ibb.co.com/BVwDm08b/writing-2327400-1.png"
+  },
+  {
+    "id": "prod_007",
+    "name": "VideoStitch AI",
+    "description": "AI-powered video editor with auto-captions, cuts, and social exports.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI auto-editing", "Auto-captions", "4K export", "30+ aspect ratios"],
+    "icon": "https://i.ibb.co.com/qFYqSs29/17378216.png"
+  },
+  {
+    "id": "prod_008",
+    "name": "HireIQ Recruit",
+    "description": "Applicant tracking and interview scheduling for HR teams of all sizes.",
+    "price": 499,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["ATS pipeline", "Interview scheduling", "Offer templates", "Analytics"],
+    "icon": "https://i.ibb.co.com/tMxFHzyG/design-tool.png"
+  },
+  {
+    "id": "prod_009",
+    "name": "LegalDocs Bundle",
+    "description": "500+ attorney-drafted legal templates for freelancers and small businesses.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "Limited",
+    "tagType": "limited",
+    "features": ["500+ templates", "E-signature ready", "State-specific", "Lifetime updates"],
+    "icon": "https://i.ibb.co.com/7x9yXbwT/head-gears-brain-activity-icon-flat-style-creative-logo-design-modern-vector-pictogram-concept-web-d.webp"
+  },
+  {
+    "id": "prod_010",
+    "name": "PodcastHost Ultra",
+    "description": "Unlimited podcast hosting with distribution to Spotify, Apple, and more.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Unlimited episodes", "Auto-distribution", "Transcript generator", "Monetization"],
+    "icon": "https://i.ibb.co.com/pvqrYCnR/images.png"
+  }
+]
