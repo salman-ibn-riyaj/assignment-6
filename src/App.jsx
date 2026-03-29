@@ -1,4 +1,5 @@
 import './App.css'
+import FooterSection from './components/FooterSection'
 import GetStartedSection from './components/GetStartedSection'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
@@ -13,6 +14,8 @@ function App() {
       <HeroSection></HeroSection>
       <StateSection></StateSection>
       <GetStartedSection></GetStartedSection>
+
+      <FooterSection></FooterSection>
     </>
   )
 }
