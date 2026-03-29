@@ -26,7 +26,7 @@ const FooterSection = () => {
         </div>
 
         <div>
-          <h4 className="font-bold text-2xl mb-3">Company</h4>
+          <h4 className="font-bold text-xl mb-3">Company</h4>
           <ul className="text-gray-500">
             <li>About</li>
             <li>Blog</li>
@@ -36,7 +36,7 @@ const FooterSection = () => {
         </div>
 
         <div>
-          <h4 className="font-bold text-2xl mb-3">Resources</h4>
+          <h4 className="font-bold text-xl mb-3">Resources</h4>
           <ul className="text-gray-500">
             <li>Documentation</li>
             <li>Help Center</li>
@@ -46,7 +46,7 @@ const FooterSection = () => {
         </div>
 
         <div>
-          <h4 className="font-bold text-2xl mb-3">Social Links</h4>
+          <h4 className="font-bold text-xl mb-3">Social Links</h4>
           <div className="flex items-center gap-4">
             <span className="bg-white text-black p-1 rounded-full">
               <FaInstagram />

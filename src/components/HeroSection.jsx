@@ -21,7 +21,7 @@ const HeroSection = () => {
         </p>
 
         <div className="flex items-center gap-4">
-          <button className="btn bg-linear-to-r from-purple-900 to-violet-500 rounded-4xl w-40">Explore</button>
+          <button className="btn bg-linear-to-r from-purple-900 to-violet-500 rounded-4xl w-40 text-white">Explore</button>
           <button className="btn flex items-center gap-2 w-40 rounded-4xl bg-white text-purple-700 border border-purple-800">
             <span>
               <BsPlay />
