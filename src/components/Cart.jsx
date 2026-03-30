@@ -1,6 +1,7 @@
 import React from "react";
 import CartCard from "./CartCard";
 import { toast } from "react-toastify";
+import { BsCart4 } from "react-icons/bs";
 
 const Cart = ({ recievedProduct, setRecievedProduct }) => {
   const totalPrice = recievedProduct.reduce((sum, item) => sum + item.price, 0);
@@ -8,14 +9,20 @@ const Cart = ({ recievedProduct, setRecievedProduct }) => {
 
   const handleProceed = () => {
     setRecievedProduct([]);
-    toast.success('Purchasing successful')
+    toast.success("Purchasing successful");
   };
   return (
     <div className="w-10/12 mx-auto mb-12">
       {recievedProduct.length === 0 ? (
         <div className="text-center bg-slate-300 rounded-xl py-5 border-2 border-fuchsia-600">
-          <h2 className="font-bold text-3xl">No products selected</h2>
-          <p className="font-semibold text-2xl text-gray-500 mt-2">Please go Products tab and buy.</p>
+          <div className="flex justify-center text-4xl">
+            <h2>
+            <BsCart4 />
+          </h2>
+          </div>
+          <p className="font-semibold text-2xl text-gray-500 mt-2">
+            Your cart is empty
+          </p>
         </div>
       ) : (
         <div>
