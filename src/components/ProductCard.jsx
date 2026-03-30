@@ -2,7 +2,7 @@ import React from "react";
 import Feature from "./Feature";
 import { RiH5 } from "react-icons/ri";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, handleRecievedProduct }) => {
   const { features } = product;
   console.log(product);
   return (
@@ -12,15 +12,22 @@ const ProductCard = ({ product }) => {
           {product.tag}
         </small>
       </span>
-      <img className="w-8 mb-3 p-1 rounded-full bg-slate-50 border-1 border-gray-100" src={product.icon} alt="" />
+      <img
+        className="w-8 mb-3 p-1 rounded-full bg-slate-50 border-1 border-gray-100"
+        src={product.icon}
+        alt=""
+      />
 
       <h2 className="font-bold text-xl">{product.name}</h2>
 
       <p className="text-gray-500">{product.description}</p>
 
-      <p>
-        <h3 className="font-bold"> ${product.price}/{product.period}</h3>
-      </p>
+      <h3>
+        <p className="font-bold">
+          {" "}
+          ${product.price}/{product.period}
+        </p>
+      </h3>
 
       <div className="flex-1">
         <ul className="text-gray-500">
@@ -30,7 +37,10 @@ const ProductCard = ({ product }) => {
         </ul>
       </div>
 
-      <button className="btn w-full rounded-4xl bg-linear-to-r from-violet-800 to-purple-400 text-white font-bold ">
+      <button
+        onClick={() => handleRecievedProduct(product)}
+        className="btn w-full rounded-4xl bg-linear-to-r from-violet-800 to-purple-400 text-white font-bold "
+      >
         Buy Now
       </button>
     </div>

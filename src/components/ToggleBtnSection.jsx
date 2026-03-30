@@ -1,6 +1,6 @@
 import React from "react";
 
-const ToggleBtnSection = () => {
+const ToggleBtnSection = ({setShow, recievedProduct}) => {
   return (
     <div className="w-10/12 mx-auto my-13">
       <div className="text-center">
@@ -20,12 +20,14 @@ const ToggleBtnSection = () => {
             className="tab rounded-4xl checked:bg-violet-600 checked:text-white"
             aria-label="Products"
             defaultChecked
+            onClick={()=>setShow('products')}
           />
           <input
             type="radio"
             name="my_tabs_1"
             className="tab rounded-4xl"
-            aria-label="Cart"
+            aria-label={`Cart(${recievedProduct.length})`}
+            onClick={()=>setShow('cart')}
           />
         </div>
       </div>

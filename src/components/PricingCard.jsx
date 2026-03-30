@@ -5,7 +5,9 @@ const PricingCard = ({ pricing }) => {
   const { features } = pricing;
   console.log(pricing);
   return (
-    <div className="card bg-slate-100 shadow-sm flex flex-col p-4 pt-4 pb-2">
+    <div
+      className={`card ${pricing.most_popular && "bg-purple-500"} shadow-sm flex flex-col p-4 pt-4 pb-2`}
+    >
       <div>
         <span className="badge badge-xs badge-warning">
           {pricing.most_popular && (
@@ -31,8 +33,16 @@ const PricingCard = ({ pricing }) => {
       </div>
 
       <div className="mt-6">
-        <button className="btn bg-linear-to-r to-violet-700 from-purple-800 text-white btn-block rounded-4xl">
-          {pricing.button}
+        <button
+          className={`btn ${pricing.most_popular ? "bg-white" : "bg-linear-to-r from-violet-700 to-purple-600 text-white"} btn-block rounded-4xl`}
+        >
+          {pricing.most_popular ? (
+            <span className="bg-linear-to-r from-violet-700 to-purple-600 bg-clip-text text-transparent font-bold">
+              {pricing.button}
+            </span>
+          ) : (
+            pricing.button
+          )}
         </button>
       </div>
     </div>
