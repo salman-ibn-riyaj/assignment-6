@@ -7,7 +7,7 @@ const CartCard = ({ productForCart, setRecievedProduct, recievedProduct }) => {
     const handleRemove = () =>{
         const filteredProduct = recievedProduct.filter(item => item.name !== productForCart.name)
         setRecievedProduct(filteredProduct);
-        toast.warning('Removed from cart');
+        toast.warning('Removed from cart', {position: "bottom-center", autoClose: 2000});
     }
     
   console.log(productForCart);
