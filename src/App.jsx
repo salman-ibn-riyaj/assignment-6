@@ -44,7 +44,7 @@ function App() {
       <HeroSection></HeroSection>
       <StateSection></StateSection>
 
-      <ToggleBtnSection setShow={setShow} recievedProduct={recievedProduct}></ToggleBtnSection>
+      <ToggleBtnSection setShow={setShow} recievedProduct={recievedProduct} show={show}></ToggleBtnSection>
 
       {show === "products" && <Products dataPromise={dataPromise} handleRecievedProduct={handleRecievedProduct}></Products>}
 
