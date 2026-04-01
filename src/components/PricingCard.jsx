@@ -9,13 +9,20 @@ const PricingCard = ({ pricing }) => {
       className={`card ${pricing.most_popular && "bg-purple-500"} shadow-sm flex flex-col p-4 pt-4 pb-2`}
     >
       <div>
-        <span className="badge badge-xs badge-warning">
-          {pricing.most_popular && (
-            <span className="badge badge-xs badge-warning">
-              {pricing.tagline}
-            </span>
-          )}
-        </span>
+        {/* <div>
+          <span className="badge badge-xs badge-warning">
+            {pricing.most_popular && (
+              <span className="badge badge-xs badge-warning">
+                {pricing.tagline}
+              </span>
+            )}
+          </span>
+        </div> */}
+        <div>
+          {pricing.most_popular && <span className="badge badge-xs badge-warning">
+                {pricing.tagline}
+              </span>}
+        </div>
         <div className="flex justify-between">
           <h2 className="text-3xl font-bold">{pricing.name}</h2>
         </div>
