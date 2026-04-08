@@ -4,6 +4,9 @@
 
 ### A modern digital marketplace to discover and buy premium digital tools — fast, clean, and beautifully designed.
 
+<img width="1839" height="6471" alt="screencapture-assignment-6-navy-vercel-app-2026-04-08-17_24_14" src="https://github.com/user-attachments/assets/97099877-addc-409b-bb0e-557c9cd9bb24" />
+
+
 </div>
 
 ---
